@@ -404,7 +404,7 @@ a:hover {
   transition: all .5s ease-in-out;
   background-color: transparent;
   padding-top: 1.563rem;
-  padding-bottom: 1.563rem;
+  padding-bottom: 3rem;
 }
 
 .navbar-b.navbar-reduce {
@@ -603,7 +603,7 @@ a:hover {
 .intro {
   height: 100vh;
   position: relative;
-  color: #fff;
+  color: #000000;
 }
 
 .intro .intro-content {
@@ -623,18 +623,20 @@ a:hover {
 }
 
 .intro .intro-title {
-  color: #fff;
+  color: #000000;
   font-weight: 600;
-  font-size: 3rem;
+  font-size: 1rem;
 }
 
 .intro .intro-subtitle {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 300;
+  color: #000000;
 }
 
 .intro .text-slider-items {
   display: none;
+  color: #000000;
 }
 
 .intro-single {
@@ -672,16 +674,18 @@ a:hover {
 ======================================*/
 
 .about-mf .box-shadow-full {
-  padding-top: 4rem;
+  padding-top: 6rem;
   padding-bottom: 4rem;
 }
 
 .about-mf .about-img {
   margin-bottom: 2rem;
+  float:center;
 }
 
 .about-mf .about-img img {
   margin-left: 10px;
+  float:center;
 }
 
 .skill-mf span {
