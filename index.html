@@ -23,13 +23,6 @@
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-    Theme Name: DevFolio
-    Theme URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
 </head>
 
 <body id="page-top">
@@ -644,7 +637,7 @@
                     </h5>
                   </div>
                   <div>
-                      <form action="" method="post" role="form" class="contactForm">
+                      <!--<form action="" method="post" role="form" class="contactForm" name="submit-to-google-sheet">
                       <div id="sendmessage">Your message has been sent. Thank you!</div>
                       <div id="errormessage"></div>
                       <div class="row">
@@ -676,7 +669,25 @@
                           <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
                         </div>
                       </div>
-                    </form>
+                    </!--<form>-->
+                      <form class="form-area" id="myForm" name="submit-to-google-sheet" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScdKw6S25dMAbPHHenRJ_vzxUpYyZL7kxqvL7fXUoAFi4mwoA/formResponse" target="index.html">
+                        <div class="row">
+                            <input name="emailAddress" placeholder="Email ID*" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" 
+                            onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email ID*'" class="mb-20 form-control" type="email" required>
+                            <br><br>
+            
+                            <input name="entry.500881490" placeholder="Full Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Name'" class="mb-20 form-control"
+                            type="text">
+                            <br><br>
+            
+                            <textarea name="entry.244726903" class="form-control" name="message" placeholder="Description"
+                              onfocus="this.placeholder = ''" onblur="this.placeholder = 'Description'" id="Description"></textarea>
+                              <br><br><br><br>
+                            
+            
+                            <button class="snd-btn" type="submit" >Send it!</button>
+                        </div>
+                      </form>
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -752,6 +763,7 @@
   <script src="lib/typed/typed.min.js"></script>
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
+  <!--<script src="js/contact_us.js"></script>-->
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
