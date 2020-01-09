@@ -10,17 +10,19 @@
 ======================================*/
 
 body {
-  background-color: #f5f5f5;
+  background-color: #ffffff;
   color: #4e4e4e;
 }
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
   color: #1e1e1e;
+}
+h3 {
+  color: #000;
 }
 
 a {
@@ -420,7 +422,7 @@ a:hover {
 
 .navbar-b.navbar-trans .nav-link,
 .navbar-b.navbar-reduce .nav-link {
-  color: #fff;
+  color: #0078ff;
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -459,18 +461,18 @@ a:hover {
 }
 
 .navbar-b.navbar-trans .nav-link:before {
-  background-color: #fff;
+  background-color: #0078ff;
 }
 
 .navbar-b.navbar-trans .nav-link:hover {
-  color: #fff;
+  color: #0078ff;
 }
 
 .navbar-b.navbar-trans .show > .nav-link,
 .navbar-b.navbar-trans .active > .nav-link,
 .navbar-b.navbar-trans .nav-link.show,
 .navbar-b.navbar-trans .nav-link.active {
-  color: #fff;
+  color: #0078ff;
 }
 
 .navbar-b.navbar-reduce {
@@ -508,7 +510,7 @@ a:hover {
 }
 
 .navbar-b .navbar-brand {
-  color: #fff;
+  color: #0078ff;
   font-size: 1.6rem;
   font-weight: 600;
 }
@@ -554,7 +556,7 @@ a:hover {
 
 .navbar-toggler span {
   display: block;
-  background-color: #fff;
+  background-color: #000;
   height: 3px;
   width: 25px;
   margin-top: 4px;
@@ -740,7 +742,7 @@ a:hover {
 }
 
 .service-box .s-description {
-  color: #4e4e4e;
+  color: #0078ff;
 }
 
 /*======================================
@@ -798,7 +800,7 @@ a:hover {
 }
 
 .work-content .w-more {
-  color: #4e4e4e;
+  color: #0078ff;
   font-size: .8rem;
 }
 
@@ -908,7 +910,7 @@ a:hover {
 }
 
 .card-blog .card-description {
-  color: #4e4e4e;
+  color: #0078ff;
 }
 
 .card-blog .post-author {
@@ -916,7 +918,7 @@ a:hover {
 }
 
 .card-blog .post-date {
-  color: #4e4e4e;
+  color: #0078ff;
   display: inline-block;
   float: right;
 }
